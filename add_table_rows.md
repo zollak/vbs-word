@@ -4,7 +4,7 @@ One way is to rely on the trusty F4 key. Insert a single row into your table, an
 
 If you would like to use a macro to do the trick, this one is particularly helpful.
 
-```
+```csharp
 Sub AddTableRows()
     If Selection.Information(wdWithInTable) Then
         Application.Dialogs(wdDialogTableInsertRow).Show
