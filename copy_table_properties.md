@@ -1,6 +1,6 @@
 # Copy Table Properties from the first table to all others in the document
 
-```
+```csharp
 Sub ScratchMaco()
 Dim oTbl As Word.Table
 For Each oTbl In ActiveDocument.Tables
